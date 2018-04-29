@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ghost_Island_2</string>
+    <string name="registerPage">註冊頁面</string>
+    <string name="enterName">輸入帳號</string>
+    <string name="enterPassword">輸入密碼</string>
+    <string name="sendRegister">註 冊</string>
+
+    <string name="navigation_home">Book</string>
+    <string name="navigation_scanning">Scanning</string>
+    <string name="navigation_mission">Mission</string>
+
+
+    <string name="targetName">targetName</string>
+    <string name="label1">No.001</string>
+    <string name="label2">No.002</string>
+    <string name="label3">No.003</string>
+    <string name="label4">No.004</string>
+    <string name="label5">No.005</string>
+    <string name="label6">No.006</string>
+    <string name="label7">No.007</string>
+    <string name="label8">No.008</string>
+    <string name="label9">No.009</string>
+
+    <string name="mission1">任務一：過去消費情形調查\n＞填完即送NO.1001</string>
+    <string name="mission2">任務二：遊戲意見回饋(可重複填答)\n＞根據意見品質與先後給予卡片\n＞不一定每一則意見都會有卡片｡ﾟヽ(ﾟ´Д`)ﾉﾟ｡</string>
+    <string name="mission3">任務三：協助遊戲推廣\n＞請先點擊本連結\n＞並傳送訊息「協助遊戲推廣」\n＞將盡快與妳/你連絡~</string>
+</resources>

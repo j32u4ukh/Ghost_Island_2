@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.j32u4ukh.ghost_island_2.RegisterActivity">
+
+    <TextView
+        android:id="@+id/registPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enterName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="@string/registerPage"
+        android:textColor="@color/mission_color"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enterPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="@string/enterName"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/enterName" />
+
+    <EditText
+        android:id="@+id/enterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sendRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="@string/enterPassword"
+        android:inputType="textPassword"
+        android:labelFor="@+id/enterName" />
+
+    <Button
+        android:id="@+id/sendRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/registPage"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="107dp"
+        android:text="@string/sendRegister" />
+
+</RelativeLayout>

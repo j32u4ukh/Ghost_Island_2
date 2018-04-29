@@ -1,0 +1,47 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/missionList"
+    tools:context="com.example.j32u4ukh.ghost_island_2.MissionFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mission1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mission1"
+            android:textColor="@color/mission_color"
+            android:fontFamily="serif"
+            android:layout_margin="@dimen/mission_margin"
+            android:padding="@dimen/mission_padding"
+            android:background="@color/missionList_content"/>
+
+        <TextView
+            android:id="@+id/mission2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mission2"
+            android:textColor="@color/mission_color"
+            android:layout_margin="@dimen/mission_margin"
+            android:padding="@dimen/mission_padding"
+            android:background="@color/missionList_content"/>
+
+        <TextView
+            android:id="@+id/mission3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mission3"
+            android:textColor="@color/mission_color"
+            android:layout_margin="@dimen/mission_margin"
+            android:padding="@dimen/mission_padding"
+            android:background="@color/missionList_content"/>
+    </LinearLayout>
+
+</ScrollView>
